@@ -1,0 +1,33 @@
+
+
+function calcularNivel(vitorias, derrotas) {
+    const saldo = vitorias - derrotas;
+    let nivel;
+    
+    if (saldo <= 10) nivel = "Ferro";
+    else if (saldo <= 20) nivel = "Bronze";
+    else if (saldo <= 50) nivel = "Prata";
+    else if (saldo <= 80) nivel = "Ouro";
+    else if (saldo <= 90) nivel = "Diamante";
+    else if (saldo <= 100) nivel = "Lendário";
+    else nivel = "Imortal";
+    
+    return `O Herói tem saldo de ${saldo} e está no nível ${nivel}`;
+}
+
+// Exemplo de uso
+console.log(calcularNivel(75, 20)); // Saldo: 55 → Ouro
+
+
+🧪 Exemplos
+
+calcularNivel(5, 5)    // "Ferro"
+calcularNivel(15, 3)   // "Bronze" 
+calcularNivel(40, 10)  // "Prata"
+calcularNivel(120, 20) // "Imortal"
+
+🛠 Tecnologias
+
+- JavaScript ES6+
+- Node.js (opcional)
+- Git para versionamento
