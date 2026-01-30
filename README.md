@@ -2,6 +2,7 @@
 Um sistema simples para calcular o nível de jogadores em jogos competitivos baseado no saldo de vitórias.
 
 🚀 Funcionalidades
+
 ✅ Calcula saldo (vitórias - derrotas)
 
 ✅ Determina nível conforme tabela oficial
@@ -72,11 +73,9 @@ calcularNivel(120, 20) // "Imortal"
 
 🛠 Tecnologias
 
-JavaScript ES6+
-
-Node.js (opcional)
-
-Git para versionamento
+- JavaScript ES6+
+- Node.js (opcional)
+- Git para versionamento
 
 📈 Próximos Passos
 Interface web com HTML/CSS
