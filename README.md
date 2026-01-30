@@ -26,7 +26,8 @@ Saldo Vitórias	Nível
 📁 Estrutura
 
 text
-calculadora-ranqueada/
+
+calculadora-ranqueada
 ├── index.js          # Código principal
 ├── README.md         # Documentação
 └── package.json      # Configurações (opcional)
